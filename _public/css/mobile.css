@@ -1,0 +1,34 @@
+body div#navigation li.info::after { content:'MOBILE VERSION'; }
+body div#navigation li.info span { display:none; }
+
+
+html div.game_board { float:none; margin:0 auto; }
+html div#game_info { margin-left:0 !important; }
+html div#game_manual_move { display:block; line-height:3em; }
+html div#game_manual_move strong { margin-right:1em; }
+html div#game_manual_move input#src,
+html div#game_manual_move input#dst { width:3em; margin-right:1em; }
+html #footer { min-height:0px; }
+
+html #gritter-notice-wrapper {
+	position:fixed;
+	top:5px;
+	left:5px;
+	padding:0;
+	width:400px;
+	z-index:9999;
+	height:200px;
+}
+html #gritter-notice-wrapper .gritter-item-wrapper.modal .gritter-item {
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	z-index:9001;
+	border:1px solid #000;
+	outline:1px solid #ccc;
+}
+/*
+form#form_login fieldset label,
+form#form_login fieldset input { font-size:2em; }
+*/
